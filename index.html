@@ -77,15 +77,15 @@
     <div class="main" ng-controller="CalculatorController">
       <div class="container">
 	  <h3><strong>Simple Calculator</strong></h3>
-		      <div><input class="input-style" type="text" ng-model="a"></div>
-		      <div><input class="input-style" type="text" ng-model="b"></div>
+		      <div><input class="input-style"  type="number" name="myDecimal" placeholder="Enter Number" ng-model="a" ng-pattern="/^[0-9]+(\.[0-9]{1,2})?$/" step="any"></div>
+		      <div><input class="input-style" type="number" name="myDecimal" placeholder="Enter Number" ng-model="b" ng-pattern="/^[0-9]+(\.[0-9]{1,2})?$/" step="any"></div>
 		      <div><select class="input-style" ng-model="operator">
 			   <option>+</option>
 			   <option>*</option>
 			   <option>-</option>
 			   <option>/</option>
               </select></div>
-              <div><h3>{{result()}}</h3></div>
+              <div><h3>{{result() | number : 2}}</h3></div>
          </div>
       </div>
   </div>
