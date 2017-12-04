@@ -1,24 +1,28 @@
 app.controller('MainController', ['$scope', function($scope) {
   $scope.apps = [ 
   	{ 
-    	title: 'MOVE', 
-    	developer: 'MOVE, Inc.', 
+		icon: './img/crunchyroll.png', 
+    	title: 'Crunchyroll', 
+    	developer: 'Ellation', 
     	price: 0.99 
   	}, 
- 	 	{ 
-    	title: 'Shutterbugg', 
-    	developer: 'Chico Dusty', 
+ 	{ 
+		icon: './img/hulu.png', 
+    	title: 'Hulu', 
+    	developer: 'Hulu LLC', 
     	price: 2.99 
   	}, 
- 	 	{ 
-    	title: 'Gameboard', 
-    	developer: 'Armando Perez', 
+ 	{ 
+		icon: './img/netflix.png', 
+    	title: 'Netflix', 
+    	developer: ' Netflix', 
     	price: 1.99 
   	},  
- 	 	{
-      title: 'Forecast',
-      developer: 'Forecast',
-      price: 1.99
+ 	{
+		icon: './img/vrv.jpg', 
+        title: 'VRV',
+        developer: 'Ellation',
+        price: 1.99
     } 
 	]
 }]);
