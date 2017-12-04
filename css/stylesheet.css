@@ -47,6 +47,9 @@
 	  width: 200px;
 	  height: 200px;
   }
+  .icon.img-size.ihover:hover{
+	  box-shadow: 1px 2px 10px 1px #888888;
+  }
   .input-style{
 	  margin: 10px;
 	  text-align: center;
