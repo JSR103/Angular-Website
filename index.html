@@ -76,16 +76,16 @@
   </div>
     <div class="main" ng-controller="CalculatorController">
       <div class="container">
-	  <h3>Simple Calculator</h3>
-		      <p><input type="number" ng-model="a"></p>
-		      <p><input type="number" ng-model="b"></p>
-		      <p><select ng-model="operator">
+	  <h3><strong>Simple Calculator</strong></h3>
+		      <div><input class="input-style" type="text" ng-model="a"></div>
+		      <div><input class="input-style" type="text" ng-model="b"></div>
+		      <div><select class="input-style" ng-model="operator">
 			   <option>+</option>
 			   <option>*</option>
 			   <option>-</option>
 			   <option>/</option>
-              </select></p>
-              <p>{{result()}}</p>
+              </select></div>
+              <div><h3>{{result()}}</h3></div>
          </div>
       </div>
   </div>
