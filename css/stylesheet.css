@@ -37,3 +37,13 @@
   .navbar-nav  li a:hover {
       color: #1abc9c !important;
   }
+  .floatbox{
+	float: left;
+	display: inline-block;
+    margin: 10px;
+	margin-left: 60px;
+  }
+  .icon.img-size{
+	  width: 200px;
+	  height: 200px;
+  }
