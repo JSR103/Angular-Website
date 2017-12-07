@@ -1,8 +1,8 @@
 <document class="">
 		      <div>
-			   <p>USD BUY: {{data.USD.symbol}}{{data.USD.buy}}, SELL: {{data.USD.symbol}}{{data.USD.sell}}</p>
-			   <p>GBP BUY: {{data.GBP.symbol}}{{data.USD.buy}}, SELL: {{data.GBP.symbol}}{{data.GBP.sell}}</p>
-			   <p>EUR BUY: {{data.EUR.symbol}}{{data.USD.buy}}, SELL: {{data.EUR.symbol}}{{data.EUR.sell}}</p>
-			   <p>JPY BUY: {{data.JPY.symbol}}{{data.USD.buy}}, SELL: {{data.JPY.symbol}}{{data.JPY.sell}}</p>
+			   <p>USD BUY: {{data.USD.buy | currency}}, SELL: {{data.USD.buy | currency}}</p>
+			   <p>GBP BUY: {{data.GBP.buy | currency : "£"}}, SELL: {{data.GBP.buy | currency : "£"}}</p>
+			   <p>EUR BUY: {{data.EUR.buy | currency : "€"}}, SELL: {{data.EUR.sell | currency : "€"}}</p>
+			   <p>JPY BUY: {{data.JPY.buy | currency : "¥"}}, SELL: {{data.JPY.sell | currency : "¥"}}</p>
               </div>
 </document>
