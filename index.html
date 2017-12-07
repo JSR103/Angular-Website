@@ -90,12 +90,34 @@
               <div><h3>{{result() | number : 2}}</h3></div>
          </div>
       </div>
+	 <div class="main" ng-controller="bitconapi">
+		<div class="container">
+			<h3><strong>Exchange Rates API Market Prices</strong></h3>
+			<h4><strong>and exchanges rates api</strong></h4>
+			<p><strong>15 minutes delayed market price, Updates every 15 minutes</strong></p>
+				<btc-info></btc-info>		
+		    <p><strong><a href="https://blockchain.info/api/exchange_rates_api" rel="noopener noreferrer" target="_blank">BLOCKCHAIN Exchange Rates API</a></strong></p>
+
+         </div>
+      </div>
+<!-- 	  	 <div class="main" ng-controller="btcConv">
+		<div class="container">
+			<h3><strong>BitCoin Converter API</strong></h3>
+				<btc-conv></btc-conv>		
+         </div>
+      </div> -->
   </div>
 </div>
   <script src="./js/app.js"></script>
   <script src="./js/controllers/MainController.js"></script>
   <script src="./js/controllers/CalculatorController.js"></script>
   <script src="./js/directives/appInfo.js"></script>
+  <script src="./js/api/btc_api_controller.js"></script>
+  <script src="./js/api/btc_component.js"></script>
+<!--   <script src="./js/api/btc_conv_controller.js"></script>
+  <script src="./js/api/btc_conv_component.js"></script> -->
+
+
 
 </body>
 <!-- Footer -->
